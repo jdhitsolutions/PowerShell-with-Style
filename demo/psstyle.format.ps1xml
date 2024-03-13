@@ -1,0 +1,110 @@
+<!--
+Format type data generated 03/11/2024 13:54:19 by THINKX1-JH\Jeff
+
+This file was created using the New-PSFormatXML command that is part
+of the PSScriptTools module.
+
+https://github.com/jdhitsolutions/PSScriptTools
+-->
+<Configuration>
+  <ViewDefinitions>
+    <View>
+      <Name>basic</Name>
+      <ViewSelectedBy>
+        <TypeName>System.Management.Automation.PSStyle</TypeName>
+      </ViewSelectedBy>
+      <ListControl>
+        <ListEntries>
+          <ListEntry>
+            <ListItems>
+              <ListItem>
+                <Label>Reset</Label>
+                <ScriptBlock>$PSStyle.Reset.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Blink</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Blink,$PSStyle.blink.toString().Replace("`e","``e"),$PSStyle.BlinkOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>BlinkOff</Label>
+                <ScriptBlock>$PSStyle.BlinkOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Bold</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Bold,$PSStyle.Bold.toString().Replace("`e","``e"),$PSStyle.BoldOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>BoldOff</Label>
+                <ScriptBlock>$PSStyle.BoldOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Dim</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Dim,$PSStyle.Dim.toString().Replace("`e","``e"),$PSStyle.DimOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>DimOff</Label>
+                <ScriptBlock>$PSStyle.DimOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Hidden</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Hidden,$PSStyle.Hidden.toString().Replace("`e","``e"),$PSStyle.HiddenOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>HiddenOff</Label>
+                <ScriptBlock>$PSStyle.HiddenOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Reverse</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Reverse,$PSStyle.Reverse.toString().Replace("`e","``e"),$PSStyle.Reverseoff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>ReverseOff</Label>
+                <ScriptBlock>$PSStyle.ReverseOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Italic</Label>
+                <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Italic,$PSStyle.Italic.toString().Replace("`e","``e"),$PSStyle.ItalicOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>ItalicOff</Label>
+                <ScriptBlock>$PSStyle.ItalicOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Underline</Label>
+              <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Underline,$PSStyle.Underline.toString().Replace("`e","``e"),$PSStyle.UnderLineOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>UnderlineOff</Label>
+                <ScriptBlock>$PSStyle.UnderlineOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>Strikethrough</Label>
+              <ScriptBlock>
+                "{0}{1}{2}" -f $PSStyle.Strikethrough,$PSStyle.Strikethrough.toString().Replace("`e","``e"),$PSStyle.StrikethroughOff
+                </ScriptBlock>
+              </ListItem>
+              <ListItem>
+                <Label>StrikethroughOff</Label>
+                <ScriptBlock>$PSStyle.StrikethroughOff.toString().Replace("`e","``e")</ScriptBlock>
+              </ListItem>
+            </ListItems>
+          </ListEntry>
+        </ListEntries>
+      </ListControl>
+    </View>
+  </ViewDefinitions>
+</Configuration>

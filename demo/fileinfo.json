@@ -1,0 +1,87 @@
+{
+  "Executable": "\u001b[32;1m",
+  "SymbolicLInk": "\u001b[38;5;227m",
+  "Extension": [
+    {
+      "Name": ".zip",
+      "Setting": "\u001b[35;1m"
+    },
+    {
+      "Name": ".tgz",
+      "Setting": "\u001b[31;1m"
+    },
+    {
+      "Name": ".gz",
+      "Setting": "\u001b[31;1m"
+    },
+    {
+      "Name": ".tar",
+      "Setting": "\u001b[31;1m"
+    },
+    {
+      "Name": ".cab",
+      "Setting": "\u001b[31;1m"
+    },
+    {
+      "Name": ".md",
+      "Setting": "\u001b[38;5;201m"
+    },
+    {
+      "Name": ".7z",
+      "Setting": "\u001b[31;1m"
+    },
+    {
+      "Name": ".ps1",
+      "Setting": "\u001b[38;5;12m"
+    },
+    {
+      "Name": ".psd1",
+      "Setting": "\u001b[94m"
+    },
+    {
+      "Name": ".psm1",
+      "Setting": "\u001b[38;5;225m"
+    },
+    {
+      "Name": ".ps1xml",
+      "Setting": "\u001b[90m"
+    },
+    {
+      "Name": ".xml",
+      "Setting": "\u001b[38;5;204m"
+    },
+    {
+      "Name": ".txt",
+      "Setting": "\u001b[38;5;195m"
+    },
+    {
+      "Name": ".json",
+      "Setting": "\u001b[38;5;204m"
+    },
+    {
+      "Name": ".csv",
+      "Setting": "\u001b[38;5;204m"
+    },
+    {
+      "Name": ".gif",
+      "Setting": "\u001b[38;5;111m"
+    },
+    {
+      "Name": ".bmp",
+      "Setting": "\u001b[38;5;111m"
+    },
+    {
+      "Name": ".png",
+      "Setting": "\u001b[38;5;111m"
+    },
+    {
+      "Name": ".jpg",
+      "Setting": "\u001b[38;5;111m"
+    },
+    {
+      "Name": ".jpeg",
+      "Setting": "\u001b[38;5;111m"
+    }
+  ],
+  "Directory": "\u001b[44;3m"
+}
