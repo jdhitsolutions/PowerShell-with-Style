@@ -2,7 +2,9 @@
 
 ![PSUG Rhein Neckar](images/2024_03_PSUGRheinNeckar_Jeff.png)
 
-This is a presentation I gave to the PowerShell User Group Rhein Neckar in March 2024. The [`demo.ps1`](demo/demo.ps1) file is the master demo script meant to be run in VSCode. Or you can copy and paste commands into your PowerShell 7 session. **This will not work in the PowerShell ISE**.
+This is a presentation I gave to the PowerShell User Group Rhein Neckar in March 2024. You can view the presentation at [https://www.youtube.com/watch?v=6LySy7rrUO8](https://www.youtube.com/watch?v=6LySy7rrUO8)
+
+The [`demo.ps1`](demo/demo.ps1) file is the master demo script meant to be run in VSCode. Or you can copy and paste commands into your PowerShell 7 session. **This will not work in the PowerShell ISE**.
 
 ## Abstract
 
